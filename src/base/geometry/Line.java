@@ -43,6 +43,8 @@ public class Line {
         return m;
 
     }
+
+    @Override
     public String toString()
     {
         String s = "Line with endpoints " + end1 + " and " + end2;

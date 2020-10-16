@@ -22,6 +22,8 @@ public class Point {
     {
         return yCoord;
     }
+
+    @Override
     public String toString()	// called when you print a point
     {
         String s = "(" + xCoord + ", " + yCoord + ")";
